@@ -2,10 +2,10 @@
     "name": "craftysyntax/livewire-status-board",
     "description": "Livewire component to show models/data according to its current status",
     "keywords": [
-        "asantibanez",
+        "craftysyntax",
         "livewire-status-board"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-status-board",
+    "homepage": "https://github.com/craftysyntax/livewire-status-board",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\": "src"
+            "Craftysyntax\\LivewireStatusBoard\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireStatusBoard\\Tests\\": "tests"
+            "Craftysyntax\\LivewireStatusBoard\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
+                "Craftysyntax\\LivewireStatusBoard\\LivewireStatusBoardServiceProvider"
             ],
             "aliases": {
-                "LivewireStatusBoard": "Asantibanez\\LivewireStatusBoard\\LivewireStatusBoardFacade"
+                "LivewireStatusBoard": "Craftysyntax\\LivewireStatusBoard\\LivewireStatusBoardFacade"
             }
         }
     }

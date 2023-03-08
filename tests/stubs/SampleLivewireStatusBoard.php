@@ -1,8 +1,8 @@
 <?php
 
-namespace Asantibanez\LivewireStatusBoard\Tests\Stubs;
+namespace Craftysyntax\LivewireStatusBoard\Tests\Stubs;
 
-use Asantibanez\LivewireStatusBoard\LivewireStatusBoard;
+use Craftysyntax\LivewireStatusBoard\LivewireStatusBoard;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Support\Collection;
 use Ramsey\Uuid\Uuid;
